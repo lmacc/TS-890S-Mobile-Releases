@@ -1,13 +1,18 @@
 # TS-890S Mobile
 
 Your Kenwood TS-890S on your Android phone or tablet, from anywhere: the
-frequency, bandscope and waterfall, the radio's sound, transmitting from the
-phone's microphone, split, and switching the radio on and off.
+frequency, bandscope and waterfall, the radio's sound with NR3 or NR4 noise
+reduction, AGC, transmitting from the phone's microphone, split, and
+switching the radio on and off.
 
 <p>
   <img src="images/receiving.jpg" width="250" alt="Receiving on 40 metres">
   <img src="images/split.jpg" width="250" alt="Working split">
   <img src="images/transmitting.jpg" width="250" alt="Transmitting, with the meters">
+</p>
+<p>
+  <img src="images/nr3.jpg" width="250" alt="NR3 noise reduction on 80 metres, with AGC-M">
+  <img src="images/nr4.jpg" width="250" alt="NR4 noise reduction">
 </p>
 
 TS-890S Mobile reaches the radio through the **TS-890S Remote Relay**, the
@@ -28,6 +33,9 @@ under **Assets**:
 - **TS-890S-Mobile-Guide.pdf**: the user guide. It covers installing the
   app, setting up Tailscale on the phone, connecting to the relay, and
   everything on the screen.
+- **libspecbleach-….-source.zip**: the source of NR4's noise reduction
+  library, offered under its licence (LGPL). You don't need it to use the
+  app.
 - **SHA256SUMS.txt**: a checksum for the APK, so a copy found anywhere else
   can be told from the one released here.
 
